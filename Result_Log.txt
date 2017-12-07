@@ -1,0 +1,210 @@
+
+**********************************YUV MODE*********************************
+
+YUV value of pixel [199,280] is [102 134 123] 
+YUV value of pixel [199,281] is [178 134 123] 
+YUV value of pixel [199,282] is [168 133 123] 
+YUV value of pixel [199,283] is [166 133 123] 
+YUV value of pixel [199,284] is [172 134 123] 
+YUV value of pixel [199,285] is [177 134 123] 
+YUV value of pixel [199,286] is [136 134 123] 
+YUV value of pixel [199,287] is [62 134 123] 
+YUV value of pixel [199,288] is [36 135 123] 
+YUV value of pixel [199,289] is [48 135 123] 
+YUV value of pixel [199,290] is [44 136 123] 
+YUV value of pixel [199,291] is [40 136 123] 
+YUV value of pixel [199,292] is [37 137 122] 
+YUV value of pixel [199,293] is [39 137 122] 
+YUV value of pixel [199,294] is [37 137 122] 
+YUV value of pixel [199,295] is [35 137 122] 
+YUV value of pixel [199,296] is [37 136 122] 
+YUV value of pixel [199,297] is [39 136 122] 
+YUV value of pixel [199,298] is [38 136 122] 
+YUV value of pixel [199,299] is [40 136 122] 
+rSize value (verticle length of RADON transform) is : 363 
+
+STEP 2 - START GRAY SCALE CONVERTION PROCESS 
+
+STEP 3 - START COLOR FILTERING PREOCESS 
+
+STEP 4 - START SOBEL EDGE DETECTION PREOCESS 
+
+Now, filtering of input image is performed
+
+window_max[0][0]is:26.225037 and peak_value is :208.150378 
+window_max[0][1]is:0.000000 and peak_value is :208.150378 
+window_max[1][0]is:27.343381 and peak_value is :208.150378 
+window_max[1][1]is:26.987547 and peak_value is :208.150378 
+window_max[2][0]is:15.933099 and peak_value is :208.150378 
+window_max[2][1]is:101.689879 and peak_value is :208.150378 
+window_max[3][0]is:115.984176 and peak_value is :208.150378 
+window_max[3][1]is:54.135322 and peak_value is :208.150378 
+window_max[4][0]is:115.918522 and peak_value is :208.150378 
+window_max[4][1]is:30.602216 and peak_value is :208.150378 
+window_max[5][0]is:18.089990 and peak_value is :208.150378 
+window_max[5][1]is:16.709380 and peak_value is :208.150378 
+window_max[6][0]is:41.970724 and peak_value is :208.150378 
+window_max[6][1]is:47.435674 and peak_value is :208.150378 
+window_max[7][0]is:142.653086 and peak_value is :208.150378 
+window_max[7][1]is:208.150378 and peak_value is :208.150378 
+window_max[8][0]is:6.743563 and peak_value is :208.150378 
+window_max[8][1]is:110.555951 and peak_value is :208.150378 
+window_max[9][0]is:27.039597 and peak_value is :208.150378 
+window_max[9][1]is:15.642781 and peak_value is :208.150378 
+window_max[10][0]is:123.417963 and peak_value is :208.150378 
+window_max[10][1]is:0.000000 and peak_value is :208.150378 
+window_max[11][0]is:25.218460 and peak_value is :208.150378 
+window_max[11][1]is:0.000000 and peak_value is :208.150378 
+******ENTER IF DEBUG******* 
+absolute peak value locates in window [117][92] is 115.984176 
+******ENTER IF DEBUG******* 
+******ENTER IF DEBUG******* 
+absolute peak value locates in window [209][87] is 41.970724 
+******ENTER IF DEBUG******* 
+******ENTER IF DEBUG******* 
+absolute peak value locates in window [234][181] is 208.150378 
+******ENTER IF DEBUG******* 
+******ENTER IF DEBUG******* 
+absolute peak value locates in window [322][94] is 123.417963 
+STEP 5 - START RADON TRANSFORM PREOCESS 
+
+START PARKING SPACE DETECTION 
+ 
+number of marker dtected is : 4 
+perp_index value is : 2 
+slope of perp line is: 0.017455 
+y_2 value is : -152.991928 
+x_1, y_1 value check point : x_1 = 86.038987 and y_1 = -163.961013 
+slope of parallel line is: 28.636232 
+intersect point coordinate is [86.383823][154.086203]
+case checked 1
+boundary intersect point coordinate are [84][200]
+x_1, y_1 value check point : x_1 = 177.961627 and y_1 = -72.038373 
+slope of parallel line is: 19.081127 
+intersect point coordinate is [173.741593][152.561373]
+case checked 1
+boundary intersect point coordinate are [171][200]
+x_1, y_1 value check point : x_1 = 290.656531 and y_1 = 40.656531 
+slope of parallel line is: 14.300661 
+intersect point coordinate is [277.271780][150.754252]
+case checked 1
+boundary intersect point coordinate are [273][200]
+Parking space detection is performed 
+pixel boundary of parking sace number 1 is : [86][154];[173][152];[171][191];[85][177] 
+Parking space detection is performed 
+pixel boundary of parking sace number 2 is : [173][152];[277][150];[276][161];[171][191] 
+
+cropped pixel boundary of parking space number 1 is : [86][154];[171][154];[171][177];[86][177] 
+cropped imgage confidency of parking space no. 1 is 93.278016 % 
+
+cropped pixel boundary of parking space number 2 is : [173][152];[276][152];[276][161];[173][161] 
+cropped imgage confidency of parking space no. 2 is 83.799043 % 
+
+Total time is : 0.259207 seconds 
+
+Total time of radon transform is : 0.045650 seconds 
+
+
+
+
+
+**********************************BMP MODE*********************************************
+
+
+YUV value of pixel [199,287] is [123 122 130] 
+YUV value of pixel [199,288] is [124 123 129] 
+YUV value of pixel [199,289] is [120 123 129] 
+YUV value of pixel [199,290] is [123 123 129] 
+YUV value of pixel [199,291] is [124 123 129] 
+YUV value of pixel [199,292] is [125 122 128] 
+YUV value of pixel [199,293] is [124 122 128] 
+YUV value of pixel [199,294] is [124 122 128] 
+YUV value of pixel [199,295] is [121 122 128] 
+YUV value of pixel [199,296] is [122 123 128] 
+YUV value of pixel [199,297] is [117 123 128] 
+YUV value of pixel [199,298] is [22 128 128] 
+YUV value of pixel [199,299] is [16 128 128] 
+rSize value (verticle length of RADON transform) is : 363 
+
+STEP 2 - START GRAY SCALE CONVERTION PROCESS 
+
+STEP 3 - START COLOR FILTERING PREOCESS 
+
+STEP 4 - START SOBEL EDGE DETECTION PREOCESS 
+
+Now, filtering of input image is performed
+
+window_max[0][0]is:24.390037 and peak_value is :215.786340 
+window_max[0][1]is:0.000000 and peak_value is :215.786340 
+window_max[1][0]is:28.875000 and peak_value is :215.786340 
+window_max[1][1]is:0.000000 and peak_value is :215.786340 
+window_max[2][0]is:14.635504 and peak_value is :215.786340 
+window_max[2][1]is:14.037471 and peak_value is :215.786340 
+window_max[3][0]is:111.207598 and peak_value is :215.786340 
+window_max[3][1]is:79.817378 and peak_value is :215.786340 
+window_max[4][0]is:110.316753 and peak_value is :215.786340 
+window_max[4][1]is:215.786340 and peak_value is :215.786340 
+window_max[5][0]is:8.224503 and peak_value is :215.786340 
+window_max[5][1]is:47.967160 and peak_value is :215.786340 
+window_max[6][0]is:57.101118 and peak_value is :215.786340 
+window_max[6][1]is:18.164225 and peak_value is :215.786340 
+window_max[7][0]is:143.009834 and peak_value is :215.786340 
+window_max[7][1]is:19.881669 and peak_value is :215.786340 
+window_max[8][0]is:6.178215 and peak_value is :215.786340 
+window_max[8][1]is:45.049000 and peak_value is :215.786340 
+window_max[9][0]is:28.810041 and peak_value is :215.786340 
+window_max[9][1]is:65.093868 and peak_value is :215.786340 
+window_max[10][0]is:122.683050 and peak_value is :215.786340 
+window_max[10][1]is:13.574757 and peak_value is :215.786340 
+window_max[11][0]is:27.460837 and peak_value is :215.786340 
+window_max[11][1]is:0.000000 and peak_value is :215.786340 
+******ENTER IF DEBUG******* 
+absolute peak value locates in window [119][84] is 111.207598 
+******ENTER IF DEBUG******* 
+******ENTER IF DEBUG******* 
+absolute peak value locates in window [127][179] is 215.786340 
+******ENTER IF DEBUG******* 
+absolute peak value locates in window [209][92] is 57.101118 
+******ENTER IF DEBUG******* 
+******ENTER IF DEBUG******* 
+absolute peak value locates in window [315][87] is 122.683050 
+STEP 5 - START RADON TRANSFORM PREOCESS 
+
+START PARKING SPACE DETECTION 
+ 
+number of marker dtected is : 4 
+perp_index value is : 1 
+slope of perp line is: -0.017455 
+y_2 value is : -46.008224 
+x_1, y_1 value check point : x_1 = 88.339643 and y_1 = -161.660357 
+slope of parallel line is: 9.514362 
+intersect point coordinate is [100.584104][45.162114]
+case checked 1
+boundary intersect point coordinate are [84][200]
+x_1, y_1 value check point : x_1 = 177.982943 and y_1 = -72.017057 
+slope of parallel line is: 28.636232 
+intersect point coordinate is [178.873018][46.528657]
+case checked 1
+boundary intersect point coordinate are [173][200]
+x_1, y_1 value check point : x_1 = 283.816357 and y_1 = 33.816357 
+slope of parallel line is: 19.081127 
+intersect point coordinate is [279.513587][48.285350]
+case checked 1
+boundary intersect point coordinate are [271][200]
+Parking space detection is performed 
+pixel boundary of parking sace number 1 is : [100][45];[178][46];[173][199];[84][199] 
+Parking space detection is performed 
+pixel boundary of parking sace number 2 is : [178][46];[279][48];[271][199];[173][199] 
+
+cropped pixel boundary of parking space number 1 is : [100][46];[173][46];[173][199];[100][199] 
+cropped imgage confidency of parking space no. 1 is 97.005988 % 
+
+cropped pixel boundary of parking space number 2 is : [178][48];[271][48];[271][199];[178][199] 
+cropped imgage confidency of parking space no. 2 is 98.330468 % 
+
+Total time is : 0.258972 seconds 
+
+Total time of radon transform is : 0.045315 seconds 
+
+
+
